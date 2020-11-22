@@ -34,6 +34,7 @@ export default {
   position: relative;
   top: 30%;
   height: 0;
+  display: inline-block;
 }
 h1 {
   font-size: 500%;
