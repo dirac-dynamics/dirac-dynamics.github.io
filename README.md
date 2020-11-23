@@ -10,9 +10,9 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Deploy to GitHub Pages
 ```
-npm run build
+npm run deploy
 ```
 
 ### Lints and fixes files
