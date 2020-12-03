@@ -37,7 +37,7 @@ export default {
   display: inline-block;
 }
 h1 {
-  font-size: 500%;
+  font-size: 450%;
 }
 
 h2 {
