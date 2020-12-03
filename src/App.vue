@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <ParticlesBackground/>
-    <div id="text">
-      <h1>|Dirac Dynamics></h1>
-      <h2>Enjoy the Quantum Revolution.</h2>
+    <div id="content">
+      <img id="logo" src='@/assets/logo_long_filled.png'/>
+      <h2>Making Mobility More Efficient.</h2>
     </div>
   </div>
 </template>
@@ -30,14 +30,16 @@ export default {
   width: 100%;
   height: 100%;
 }
-#text {
+#content {
   position: relative;
   top: 30%;
   height: 0;
   display: inline-block;
 }
-h1 {
-  font-size: 450%;
+#logo {
+  width: 80%;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 h2 {
