@@ -32,7 +32,7 @@ export default {
 }
 #content {
   position: relative;
-  top: 30%;
+  top: 40%;
   height: 0;
   display: inline-block;
 }
